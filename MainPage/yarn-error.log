@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\aekan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.19.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\aekan\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\Go\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\apache-maven-3.9.5\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\aekan\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\aekan\AppData\Local\Programs\Python\Python311\;C:\Users\aekan\AppData\Local\Microsoft\WindowsApps;C:\Users\aekan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aekan\AppData\Roaming\npm;C:\Users\aekan\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\nodejs;C:\Users\aekan\go\bin;C:\Program Files\Java\apache-maven-3.9.5\bin;C:\Program Files\Java\apache-maven-3.9.5;C:\Program Files\Java\apache-maven-3.9.5\bin\mvn;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.4\bin;;C:\Users\aekan\AppData\Local\GitHubDesktop\bin;C:\javafx\bin;C:\javafx\lib;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ECONNABORTED 104.16.24.34:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+npm manifest: 
+  {
+  	"name": "mainpage",
+  	"version": "0.0.1",
+  	"private": true,
+  	"scripts": {
+  		"dev": "vite dev",
+  		"build": "vite build",
+  		"preview": "vite preview",
+  		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+  		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+  	},
+  	"devDependencies": {
+  		"@sveltejs/adapter-auto": "^3.0.0",
+  		"@sveltejs/kit": "^2.0.0",
+  		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+  		"svelte": "^4.2.7",
+  		"svelte-check": "^3.6.0",
+  		"typescript": "^5.0.0",
+  		"vite": "^5.0.3"
+  	},
+  	"type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
